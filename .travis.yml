@@ -1,5 +1,4 @@
 language: java
-before_script:
-  - npm install
-script:
-  - npm test
+jdk:
+  openjdk8
+
